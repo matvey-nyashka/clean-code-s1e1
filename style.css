@@ -90,7 +90,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#task-id {
   width: 318px;
 }
 

@@ -18,7 +18,7 @@ var completedTasksHolder=document.getElementById("main__ul_tasks_complete");//co
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-    listItem.className="li"
+    listItem.className="li";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
@@ -38,6 +38,8 @@ var createNewTaskElement=function(taskString){
 
     //Each elements, needs appending
     checkBox.type="checkbox";
+    checkBox.className = "li_checkbox";
+
     editInput.type="text";
     editInput.className="task";
 
@@ -156,7 +158,7 @@ addButton.addEventListener("click",ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
-    var checkBox=taskListItem.querySelector("input[type=checkbox]");
+    var checkBox=taskListItem.querySelector(".li_checkbox");
     var editButton=taskListItem.querySelector("button.edit");
     var deleteButton=taskListItem.querySelector("button.delete");
 

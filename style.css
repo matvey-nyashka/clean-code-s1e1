@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header {
-  text-align: center;
-}
+
+  .header {
+    text-align: center;
+  }
+
 }
 
 .main {
@@ -113,7 +115,7 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.li > input[type="checkbox"] {
+.li_checkbox {
   margin: 0 10px;
 }
 .li > label {

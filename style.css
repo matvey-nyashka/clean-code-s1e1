@@ -48,13 +48,17 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.li, .main__h3 {
+.li, 
+.main__h3 {
   list-style: none;
 }
-input,button, .add-section__input_add{
+input,
+button, 
+.add-section__input_add{
   outline: none;
 }
-button, .add-section__input_add {
+button, 
+.add-section__input_add {
   background: none;
   border: 0px;
   color: #888;
@@ -63,7 +67,8 @@ button, .add-section__input_add {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover, .add-section__input_add:hover {
+button:hover, 
+.add-section__input_add:hover {
   color: #3a3a3a;
 }
 /* Heading */

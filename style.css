@@ -28,6 +28,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
+
+.add-section__input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1  
+}
 .task {
   width: 56%;
   display: inline-block;
@@ -43,10 +49,10 @@ ul {
 li, h3 {
   list-style:none;
 }
-input,button{
+input,button, .add-section__input_add{
   outline:none;
 }
-button {
+button, .add-section__input_add {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +61,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+button:hover, .add-section__input_add:hover {
   color: #3a3a3a;
 }
 /* Heading */

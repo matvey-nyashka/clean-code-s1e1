@@ -45,14 +45,14 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .li, .main__h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button, .add-section__input_add{
-  outline:none;
+  outline: none;
 }
 button, .add-section__input_add {
   background: none;
@@ -124,7 +124,7 @@ input[type="text"]:focus {
   font-size: 18px;
   width: 226px;
 }
-.li >    input[type="text"] {
+.li > input[type="text"] {
   width: 226px
 }
 button.delete img {
@@ -144,14 +144,14 @@ ul#completed-tasks label {
 
 /* Edit Task */
 ul .li input[type=text] {
-  display:none
+  display: none
 }
 
 ul .li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 ul .li.editMode label {
-  display:none;
+  display: none;
 }
